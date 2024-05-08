@@ -17,7 +17,7 @@
 你可以使用以下命令来安装所需的 Python 库：
 
 ```bash
-pip install aliyun-python-sdk-core aliyun-python-sdk-alidns requests
+pip install requests alibabacloud-tea-console alibabacloud-darabonba-env alibabacloud_alidns20150109
 ```
 
 ### 3. 配置
