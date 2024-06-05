@@ -23,20 +23,16 @@ pip install requests alibabacloud-tea-console alibabacloud-darabonba-env alibaba
 ### 3. 配置
 在开始之前，你需要进行一些配置：
 - 在阿里云控制台中创建一个 RAM 用户，并为其分配域名解析的相关权限。然后获取该用户的 Access Key ID 和 Access Key Secret。
-- 打开 `config.py` 文件，并填入你的阿里云账号信息、域名信息以及中科大测速站的 API 地址。
+- 在环境变量中添加RAM用户的Access Key ID 和 Access Key Secret。添加方法参考help.aliyun.com/zh/sdk/developer-reference/configure-the-alibaba-cloud-accesskey-environment-variable-on-linux-macos-and-windows-systems
+| 变量 | 示例值 |
+|-------|-------|
+| AccessKey ID | 变量名：ALIBABA_CLOUD_ACCESS_KEY_ID
 
-```python
-# 阿里云账号信息
-ACCESS_KEY_ID = "YourAccessKeyId"
-ACCESS_KEY_SECRET = "YourAccessKeySecret"
+变量值：LTAI4GDty8ab9W4Y1D**** |
+| AccessKey Secret | 变量名：ALIBABA_CLOUD_ACCESS_KEY_SECRET
 
-# 域名信息
-DOMAIN_NAME = "yourdomain.com"  # 填入你的域名
-RECORD_NAME = "www"  # 填入你的记录名称
+变量值：IrVTNZNy5yQelTETg0cZML3TQn**** |
 
-# 中科大测速站 API 地址
-SPEED_TEST_API = "https://ip.uestc.edu.cn/api"
-```
 
 ### 4. 运行
 运行 `main.py` 文件，它将会获取当前的 IPv6 地址，并更新指定域名的解析记录。
