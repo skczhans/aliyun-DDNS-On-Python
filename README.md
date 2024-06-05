@@ -33,6 +33,13 @@ pip install requests alibabacloud-tea-console alibabacloud-darabonba-env alibaba
 
 变量值：IrVTNZNy5yQelTETg0cZML3TQn**** |
 
+| 列名1 | 列名2 | 列名3 |
+|-------|-------|-------|
+| 单元格1 | 单元格2 | 单元格3 |
+| 单元格4 | 单元格5 | 单元格6 |
+| 单元格7 | 单元格8 | 单元格9 |
+
+
 
 ### 4. 运行
 运行 `main.py` 文件，它将会获取当前的 IPv6 地址，并更新指定域名的解析记录。
