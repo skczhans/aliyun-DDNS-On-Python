@@ -23,7 +23,7 @@ pip install requests alibabacloud-tea-console alibabacloud-darabonba-env alibaba
 ### 3. 配置
 在开始之前，你需要进行一些配置：
 - 在阿里云控制台中创建一个 RAM 用户，并为其分配域名解析的相关权限。然后获取该用户的 Access Key ID 和 Access Key Secret。
-- 在环境变量中添加RAM用户的Access Key ID 和 Access Key Secret。添加方法参考help.aliyun.com/zh/sdk/developer-reference/configure-the-alibaba-cloud-accesskey-environment-variable-on-linux-macos-and-windows-systems
+- 在环境变量中添加RAM用户的Access Key ID 和 Access Key Secret。添加方法参考[配置环境变量](https://help.aliyun.com/zh/sdk/developer-reference/configure-the-alibaba-cloud-accesskey-environment-variable-on-linux-macos-and-windows-systems)
 - 
 | 变量 | 示例值 |
 |------|--------|
