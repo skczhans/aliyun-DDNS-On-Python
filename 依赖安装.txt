@@ -1,0 +1,1 @@
+pip install requests alibabacloud-tea-console alibabacloud-darabonba-env alibabacloud_alidns20150109
