@@ -34,6 +34,7 @@ pip install requests alibabacloud-tea-console alibabacloud-darabonba-env alibaba
 
 ### 4. 运行
 运行 `sample.py` 文件，它将会获取当前的 IPv6 地址，并更新指定域名的解析记录。
+\\123
 
 ```bash
 python sample.py cn-guangzhou 你的域名 主机记录 记录类型
