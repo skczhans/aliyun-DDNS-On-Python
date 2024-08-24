@@ -27,8 +27,8 @@ pip install requests alibabacloud-tea-console alibabacloud-darabonba-env alibaba
 - 
 | 变量 | 示例值 |
 |------|--------|
-| ALIBABA_CLOUD_ACCESS_KEY_ID | 变量名：ALIBABA_CLOUD_ACCESS_KEY_ID<br>变量值：LTAI4GDty\*\*\*\*W4Y1D\*\*\*\* |
-| ALIBABA_CLOUD_ACCESS_KEY_SECRET | 变量名：ALIBABA_CLOUD_ACCESS_KEY_SECRET<br>变量值：IrVTNZNy5yQe\*\*\*\*g0cZML3TQn**** |
+| Access Key ID | 变量名：ALIBABA_CLOUD_ACCESS_KEY_ID<br>变量值：LTAI4GDty\*\*\*\*W4Y1D\*\*\*\* |
+| Access Key Secret | 变量名：ALIBABA_CLOUD_ACCESS_KEY_SECRET<br>变量值：IrVTNZNy5yQe\*\*\*\*g0cZML3TQn**** |
 
 
 
